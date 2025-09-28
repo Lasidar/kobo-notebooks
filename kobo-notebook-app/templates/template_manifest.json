@@ -1,0 +1,240 @@
+{
+  "version": "1.0.0",
+  "created": "2025-09-28T21:41:35.686249",
+  "total_templates": 28,
+  "categories": {
+    "basic": "Standard lined, grid, and dot grid templates",
+    "academic": "Templates optimized for academic note-taking",
+    "creative": "Templates for creative writing and brainstorming",
+    "professional": "Templates for business and professional use",
+    "technical": "Templates for technical drawings and diagrams",
+    "journaling": "Templates for personal journaling and planning",
+    "specialized": "Templates for specific use cases"
+  },
+  "templates": {
+    "lined_5mm.png": {
+      "filename": "lined_5mm.png",
+      "category": "basic",
+      "name": "Lined 5mm",
+      "description": "Standard lined paper with 5mm spacing",
+      "size": 234,
+      "created": "2025-09-28T21:41:35.685036"
+    },
+    "lined_7mm.png": {
+      "filename": "lined_7mm.png",
+      "category": "basic",
+      "name": "Lined 7mm",
+      "description": "Standard lined paper with 7mm spacing",
+      "size": 234,
+      "created": "2025-09-28T21:41:35.685102"
+    },
+    "lined_10mm.png": {
+      "filename": "lined_10mm.png",
+      "category": "basic",
+      "name": "Lined 10mm",
+      "description": "Standard lined paper with 10mm spacing",
+      "size": 236,
+      "created": "2025-09-28T21:41:35.685150"
+    },
+    "grid_5mm.png": {
+      "filename": "grid_5mm.png",
+      "category": "basic",
+      "name": "Grid 5mm",
+      "description": "5mm grid paper for technical drawings",
+      "size": 233,
+      "created": "2025-09-28T21:41:35.685193"
+    },
+    "grid_10mm.png": {
+      "filename": "grid_10mm.png",
+      "category": "basic",
+      "name": "Grid 10mm",
+      "description": "10mm grid paper for general use",
+      "size": 228,
+      "created": "2025-09-28T21:41:35.685233"
+    },
+    "dot_grid_5mm.png": {
+      "filename": "dot_grid_5mm.png",
+      "category": "basic",
+      "name": "Dot Grid 5mm",
+      "description": "5mm dot grid for flexible layouts",
+      "size": 233,
+      "created": "2025-09-28T21:41:35.685304"
+    },
+    "dot_grid_7mm.png": {
+      "filename": "dot_grid_7mm.png",
+      "category": "basic",
+      "name": "Dot Grid 7mm",
+      "description": "7mm dot grid for bullet journaling",
+      "size": 234,
+      "created": "2025-09-28T21:41:35.685347"
+    },
+    "cornell_notes.png": {
+      "filename": "cornell_notes.png",
+      "category": "basic",
+      "name": "Cornell Notes",
+      "description": "Cornell note-taking system",
+      "size": 227,
+      "created": "2025-09-28T21:41:35.685403"
+    },
+    "blank.png": {
+      "filename": "blank.png",
+      "category": "basic",
+      "name": "Blank",
+      "description": "Clean blank page",
+      "size": 209,
+      "created": "2025-09-28T21:41:35.685443"
+    },
+    "academic_notes.png": {
+      "filename": "academic_notes.png",
+      "category": "academic",
+      "name": "Academic Notes",
+      "description": "Structured notes with keyword sidebar",
+      "size": 239,
+      "created": "2025-09-28T21:41:35.685492"
+    },
+    "study_notes.png": {
+      "filename": "study_notes.png",
+      "category": "academic",
+      "name": "Study Notes",
+      "description": "Optimized for study sessions",
+      "size": 227,
+      "created": "2025-09-28T21:41:35.685529"
+    },
+    "lecture_notes.png": {
+      "filename": "lecture_notes.png",
+      "category": "academic",
+      "name": "Lecture Notes",
+      "description": "Template for lecture note-taking",
+      "size": 233,
+      "created": "2025-09-28T21:41:35.685579"
+    },
+    "creative_writing.png": {
+      "filename": "creative_writing.png",
+      "category": "creative",
+      "name": "Creative Writing",
+      "description": "Template for creative writing",
+      "size": 233,
+      "created": "2025-09-28T21:41:35.685624"
+    },
+    "mind_map_6.png": {
+      "filename": "mind_map_6.png",
+      "category": "creative",
+      "name": "Mind Map 6",
+      "description": "Mind map with 6 branches",
+      "size": 222,
+      "created": "2025-09-28T21:41:35.685660"
+    },
+    "mind_map_8.png": {
+      "filename": "mind_map_8.png",
+      "category": "creative",
+      "name": "Mind Map 8",
+      "description": "Mind map with 8 branches",
+      "size": 222,
+      "created": "2025-09-28T21:41:35.685698"
+    },
+    "story_planning.png": {
+      "filename": "story_planning.png",
+      "category": "creative",
+      "name": "Story Planning",
+      "description": "Template for story development",
+      "size": 232,
+      "created": "2025-09-28T21:41:35.685734"
+    },
+    "meeting_notes.png": {
+      "filename": "meeting_notes.png",
+      "category": "professional",
+      "name": "Meeting Notes",
+      "description": "Structured meeting notes",
+      "size": 225,
+      "created": "2025-09-28T21:41:35.685773"
+    },
+    "project_planning.png": {
+      "filename": "project_planning.png",
+      "category": "professional",
+      "name": "Project Planning",
+      "description": "Project management template",
+      "size": 231,
+      "created": "2025-09-28T21:41:35.685816"
+    },
+    "business_notes.png": {
+      "filename": "business_notes.png",
+      "category": "professional",
+      "name": "Business Notes",
+      "description": "Professional note-taking",
+      "size": 226,
+      "created": "2025-09-28T21:41:35.685853"
+    },
+    "technical_drawing_5mm.png": {
+      "filename": "technical_drawing_5mm.png",
+      "category": "technical",
+      "name": "Technical Drawing 5mm",
+      "description": "5mm grid for technical drawings",
+      "size": 240,
+      "created": "2025-09-28T21:41:35.685896"
+    },
+    "technical_drawing_10mm.png": {
+      "filename": "technical_drawing_10mm.png",
+      "category": "technical",
+      "name": "Technical Drawing 10mm",
+      "description": "10mm grid for technical drawings",
+      "size": 242,
+      "created": "2025-09-28T21:41:35.685937"
+    },
+    "circuit_diagram.png": {
+      "filename": "circuit_diagram.png",
+      "category": "technical",
+      "name": "Circuit Diagram",
+      "description": "Template for circuit diagrams",
+      "size": 232,
+      "created": "2025-09-28T21:41:35.685990"
+    },
+    "bullet_journal.png": {
+      "filename": "bullet_journal.png",
+      "category": "journaling",
+      "name": "Bullet Journal",
+      "description": "Complete bullet journal layout",
+      "size": 232,
+      "created": "2025-09-28T21:41:35.686025"
+    },
+    "daily_journal.png": {
+      "filename": "daily_journal.png",
+      "category": "journaling",
+      "name": "Daily Journal",
+      "description": "Daily journaling template",
+      "size": 226,
+      "created": "2025-09-28T21:41:35.686057"
+    },
+    "weekly_planner.png": {
+      "filename": "weekly_planner.png",
+      "category": "journaling",
+      "name": "Weekly Planner",
+      "description": "Weekly planning template",
+      "size": 226,
+      "created": "2025-09-28T21:41:35.686090"
+    },
+    "language_learning.png": {
+      "filename": "language_learning.png",
+      "category": "specialized",
+      "name": "Language Learning",
+      "description": "Template for language study",
+      "size": 232,
+      "created": "2025-09-28T21:41:35.686158"
+    },
+    "music_staff.png": {
+      "filename": "music_staff.png",
+      "category": "specialized",
+      "name": "Music Staff",
+      "description": "Musical notation template",
+      "size": 224,
+      "created": "2025-09-28T21:41:35.686199"
+    },
+    "recipe_card.png": {
+      "filename": "recipe_card.png",
+      "category": "specialized",
+      "name": "Recipe Card",
+      "description": "Recipe writing template",
+      "size": 222,
+      "created": "2025-09-28T21:41:35.686245"
+    }
+  }
+}

@@ -1,0 +1,352 @@
+[
+  {
+    "session_id": "session_1759098128_user_001",
+    "user_id": "user_001",
+    "start_time": "2025-09-28 22:22:08.168424",
+    "end_time": "2025-09-28 22:22:08.168796",
+    "tasks_completed": [
+      "device_detection",
+      "template_generation",
+      "template_preview",
+      "package_creation",
+      "device_backup",
+      "template_installation"
+    ],
+    "feedback": {
+      "task_results": {
+        "device_detection": {
+          "success": true,
+          "notes": "Device detected successfully",
+          "completion_time": "2025-09-28T22:22:08.168547"
+        },
+        "template_generation": {
+          "success": true,
+          "notes": "Generated lined template with default settings",
+          "completion_time": "2025-09-28T22:22:08.168601"
+        },
+        "template_preview": {
+          "success": true,
+          "notes": "Preview worked well",
+          "completion_time": "2025-09-28T22:22:08.168639"
+        },
+        "package_creation": {
+          "success": true,
+          "notes": "Created package after some trial and error",
+          "completion_time": "2025-09-28T22:22:08.168667"
+        },
+        "device_backup": {
+          "success": true,
+          "notes": "Backup created successfully with help from documentation",
+          "completion_time": "2025-09-28T22:22:08.168694"
+        },
+        "template_installation": {
+          "success": true,
+          "notes": "Installation completed successfully",
+          "completion_time": "2025-09-28T22:22:08.168724"
+        }
+      },
+      "experience": {
+        "difficulty": "moderate",
+        "time_taken": "longer than expected",
+        "help_needed": true,
+        "would_recommend": true
+      }
+    },
+    "satisfaction_score": 3,
+    "issues_encountered": [
+      "UI could be more intuitive for beginners",
+      "Need more help text and tooltips"
+    ],
+    "suggestions": [
+      "Add a beginner mode with guided setup",
+      "Include more examples and tutorials"
+    ]
+  },
+  {
+    "session_id": "session_1759098128_user_002",
+    "user_id": "user_002",
+    "start_time": "2025-09-28 22:22:08.168816",
+    "end_time": "2025-09-28 22:22:08.169102",
+    "tasks_completed": [
+      "device_detection",
+      "template_generation",
+      "template_preview",
+      "package_creation",
+      "device_backup",
+      "template_installation",
+      "template_library",
+      "advanced_features"
+    ],
+    "feedback": {
+      "task_results": {
+        "device_detection": {
+          "success": true,
+          "notes": "Device detected quickly",
+          "completion_time": "2025-09-28T22:22:08.168847"
+        },
+        "template_generation": {
+          "success": true,
+          "notes": "Generated multiple template types",
+          "completion_time": "2025-09-28T22:22:08.168873"
+        },
+        "template_preview": {
+          "success": true,
+          "notes": "Preview functionality works well",
+          "completion_time": "2025-09-28T22:22:08.168898"
+        },
+        "package_creation": {
+          "success": true,
+          "notes": "Package creation straightforward",
+          "completion_time": "2025-09-28T22:22:08.168925"
+        },
+        "device_backup": {
+          "success": true,
+          "notes": "Backup process clear and easy",
+          "completion_time": "2025-09-28T22:22:08.168949"
+        },
+        "template_installation": {
+          "success": true,
+          "notes": "Installation completed without issues",
+          "completion_time": "2025-09-28T22:22:08.168978"
+        },
+        "template_library": {
+          "success": true,
+          "notes": "Library management intuitive",
+          "completion_time": "2025-09-28T22:22:08.169015"
+        },
+        "advanced_features": {
+          "success": true,
+          "notes": "Tried batch operations, worked well",
+          "completion_time": "2025-09-28T22:22:08.169040"
+        }
+      },
+      "experience": {
+        "difficulty": "easy",
+        "time_taken": "as expected",
+        "help_needed": false,
+        "would_recommend": true
+      }
+    },
+    "satisfaction_score": 4,
+    "issues_encountered": [
+      "Some advanced features could be better documented"
+    ],
+    "suggestions": [
+      "Add keyboard shortcuts for power users",
+      "Include template sharing functionality"
+    ]
+  },
+  {
+    "session_id": "session_1759098128_user_003",
+    "user_id": "user_003",
+    "start_time": "2025-09-28 22:22:08.169120",
+    "end_time": "2025-09-28 22:22:08.169383",
+    "tasks_completed": [
+      "device_detection",
+      "template_generation",
+      "template_preview",
+      "package_creation",
+      "device_backup",
+      "template_installation",
+      "template_library",
+      "advanced_features"
+    ],
+    "feedback": {
+      "task_results": {
+        "device_detection": {
+          "success": true,
+          "notes": "Completed device_detection successfully",
+          "completion_time": "2025-09-28T22:22:08.169149"
+        },
+        "template_generation": {
+          "success": true,
+          "notes": "Completed template_generation successfully",
+          "completion_time": "2025-09-28T22:22:08.169178"
+        },
+        "template_preview": {
+          "success": true,
+          "notes": "Completed template_preview successfully",
+          "completion_time": "2025-09-28T22:22:08.169203"
+        },
+        "package_creation": {
+          "success": true,
+          "notes": "Completed package_creation successfully",
+          "completion_time": "2025-09-28T22:22:08.169226"
+        },
+        "device_backup": {
+          "success": true,
+          "notes": "Completed device_backup successfully",
+          "completion_time": "2025-09-28T22:22:08.169250"
+        },
+        "template_installation": {
+          "success": true,
+          "notes": "Completed template_installation successfully",
+          "completion_time": "2025-09-28T22:22:08.169274"
+        },
+        "template_library": {
+          "success": true,
+          "notes": "Completed template_library successfully",
+          "completion_time": "2025-09-28T22:22:08.169297"
+        },
+        "advanced_features": {
+          "success": true,
+          "notes": "Completed advanced_features successfully",
+          "completion_time": "2025-09-28T22:22:08.169322"
+        }
+      },
+      "experience": {
+        "difficulty": "very easy",
+        "time_taken": "faster than expected",
+        "help_needed": false,
+        "would_recommend": true,
+        "power_user_features": "would be appreciated"
+      }
+    },
+    "satisfaction_score": 5,
+    "issues_encountered": [
+      "Would like more customization options"
+    ],
+    "suggestions": [
+      "Add plugin system for custom template generators",
+      "Include command-line interface",
+      "Add automation and scripting capabilities"
+    ]
+  },
+  {
+    "session_id": "session_1759098128_user_004",
+    "user_id": "user_004",
+    "start_time": "2025-09-28 22:22:08.169396",
+    "end_time": "2025-09-28 22:22:08.169587",
+    "tasks_completed": [
+      "device_detection",
+      "template_generation",
+      "template_preview",
+      "package_creation",
+      "device_backup",
+      "template_installation"
+    ],
+    "feedback": {
+      "task_results": {
+        "device_detection": {
+          "success": true,
+          "notes": "Device detected successfully",
+          "completion_time": "2025-09-28T22:22:08.169421"
+        },
+        "template_generation": {
+          "success": true,
+          "notes": "Generated lined template with default settings",
+          "completion_time": "2025-09-28T22:22:08.169445"
+        },
+        "template_preview": {
+          "success": true,
+          "notes": "Preview worked well",
+          "completion_time": "2025-09-28T22:22:08.169467"
+        },
+        "package_creation": {
+          "success": true,
+          "notes": "Created package after some trial and error",
+          "completion_time": "2025-09-28T22:22:08.169488"
+        },
+        "device_backup": {
+          "success": true,
+          "notes": "Backup created successfully with help from documentation",
+          "completion_time": "2025-09-28T22:22:08.169509"
+        },
+        "template_installation": {
+          "success": true,
+          "notes": "Installation completed successfully",
+          "completion_time": "2025-09-28T22:22:08.169531"
+        }
+      },
+      "experience": {
+        "difficulty": "moderate",
+        "time_taken": "longer than expected",
+        "help_needed": true,
+        "would_recommend": true
+      }
+    },
+    "satisfaction_score": 3,
+    "issues_encountered": [
+      "UI could be more intuitive for beginners",
+      "Need more help text and tooltips"
+    ],
+    "suggestions": [
+      "Add a beginner mode with guided setup",
+      "Include more examples and tutorials"
+    ]
+  },
+  {
+    "session_id": "session_1759098128_user_005",
+    "user_id": "user_005",
+    "start_time": "2025-09-28 22:22:08.169602",
+    "end_time": "2025-09-28 22:22:08.169822",
+    "tasks_completed": [
+      "device_detection",
+      "template_generation",
+      "template_preview",
+      "package_creation",
+      "device_backup",
+      "template_installation",
+      "template_library",
+      "advanced_features"
+    ],
+    "feedback": {
+      "task_results": {
+        "device_detection": {
+          "success": true,
+          "notes": "Device detected quickly",
+          "completion_time": "2025-09-28T22:22:08.169627"
+        },
+        "template_generation": {
+          "success": true,
+          "notes": "Generated multiple template types",
+          "completion_time": "2025-09-28T22:22:08.169649"
+        },
+        "template_preview": {
+          "success": true,
+          "notes": "Preview functionality works well",
+          "completion_time": "2025-09-28T22:22:08.169671"
+        },
+        "package_creation": {
+          "success": true,
+          "notes": "Package creation straightforward",
+          "completion_time": "2025-09-28T22:22:08.169690"
+        },
+        "device_backup": {
+          "success": true,
+          "notes": "Backup process clear and easy",
+          "completion_time": "2025-09-28T22:22:08.169712"
+        },
+        "template_installation": {
+          "success": true,
+          "notes": "Installation completed without issues",
+          "completion_time": "2025-09-28T22:22:08.169733"
+        },
+        "template_library": {
+          "success": true,
+          "notes": "Library management intuitive",
+          "completion_time": "2025-09-28T22:22:08.169755"
+        },
+        "advanced_features": {
+          "success": true,
+          "notes": "Tried batch operations, worked well",
+          "completion_time": "2025-09-28T22:22:08.169774"
+        }
+      },
+      "experience": {
+        "difficulty": "easy",
+        "time_taken": "as expected",
+        "help_needed": false,
+        "would_recommend": true
+      }
+    },
+    "satisfaction_score": 4,
+    "issues_encountered": [
+      "Some advanced features could be better documented"
+    ],
+    "suggestions": [
+      "Add keyboard shortcuts for power users",
+      "Include template sharing functionality"
+    ]
+  }
+]

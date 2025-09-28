@@ -1,0 +1,28 @@
+# Kobo Notebook App - Python Dependencies
+# Core GUI Framework
+tkinter  # Built-in with Python, but listed for clarity
+
+# Image Processing
+Pillow>=10.0.0
+
+# Database
+sqlite3  # Built-in with Python
+
+# File Operations and Utilities
+pathlib  # Built-in with Python
+shutil   # Built-in with Python
+tarfile  # Built-in with Python
+json     # Built-in with Python
+
+# Development and Testing
+pytest>=7.0.0
+pytest-cov>=4.0.0
+
+# Optional: For enhanced GUI (alternative to tkinter)
+# PyQt5>=5.15.0  # Uncomment if switching to PyQt5
+# PyQt6>=6.5.0   # Uncomment if switching to PyQt6
+
+# Packaging and Distribution
+pyinstaller>=5.0.0
+setuptools>=65.0.0
+wheel>=0.40.0

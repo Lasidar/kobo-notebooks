@@ -1,0 +1,7 @@
+Kobo Notebook App 0.1.0", - File Checksums
+==================================================
+
+29ed92010162a12a9451ee5915d9be01f76a7b0062ae5be11f7516fbabbae816  kobo-notebook-app-0.1.0",-source.tar.gz
+21b82aeda8b14cff53e44b09a18f4da05d352d001141be653a1b425ace85db8d  kobo-notebook-app-0.1.0",-windows.zip
+eb75a9cbfd40b2d6ff942b6dd9e08accc59f8be2b4f6ea8aa4832e7b9c96ca6f  kobo-notebook-app-0.1.0",-linux.tar.gz
+f517926e828eee8d257e4cfc2a959fdbfb9289098f9dc3bb827573de9c0c1396  kobo-notebook-app-0.1.0",-macos.tar.gz
