@@ -16,6 +16,7 @@ sys.path.insert(0, os.path.join(os.path.dirname(__file__), '..', '..', '..', 'sr
 
 from utils.device_manager import DeviceManager
 from utils.logger import setup_logger
+from desktop_app.gui.template_preview import TemplatePreviewDialog
 
 
 class MainWindow:
@@ -26,6 +27,7 @@ class MainWindow:
         self.root = root
         self.logger = setup_logger()
         self.device_manager = DeviceManager()
+        self.preview_dialog = TemplatePreviewDialog(root)
         
         # Window configuration
         self.root.title("Kobo Notebook App - Custom Template Manager")
@@ -386,7 +388,26 @@ For support and updates, visit the project repository."""
     
     def preview_template(self):
         """Preview the selected template."""
-        messagebox.showinfo("Preview", "Template preview functionality coming soon!")
+        try:
+            # Get current template parameters
+            template_type = self.template_type_var.get()
+            parameters = {}
+            
+            if template_type == "Lined":
+                parameters['line_spacing'] = int(self.line_spacing_var.get())
+            elif template_type == "Grid":
+                parameters['grid_size'] = int(self.grid_size_var.get())
+            elif template_type == "Dot Grid":
+                parameters['dot_spacing'] = int(self.grid_size_var.get())  # Reuse grid_size for dot spacing
+            
+            # Show preview dialog
+            self.preview_dialog.show_preview_dialog(template_type, parameters)
+            
+        except ValueError as e:
+            messagebox.showerror("Invalid Parameters", f"Please enter valid numeric values: {e}")
+        except Exception as e:
+            self.logger.error(f"Error previewing template: {e}")
+            messagebox.showerror("Error", f"Failed to preview template: {e}")
     
     def create_template(self):
         """Create a new template."""

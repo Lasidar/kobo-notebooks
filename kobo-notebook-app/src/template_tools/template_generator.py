@@ -48,7 +48,7 @@ except ImportError:
         def rectangle(self, xy, outline=None, fill=None, width=1):
             pass
         
-        def ellipse(self, xy, fill=None, outline=None):
+        def ellipse(self, xy, fill=None, outline=None, width=1):
             pass
         
         def text(self, xy, text, fill=None, font=None):
