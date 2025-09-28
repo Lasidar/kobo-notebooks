@@ -83,10 +83,10 @@ class TemplateManager:
         
         if any(keyword in filename_lower for keyword in ["lined", "line"]):
             return "lined"
+        elif "dot_grid" in filename_lower or ("dot" in filename_lower and "grid" in filename_lower):
+            return "dot_grid"
         elif any(keyword in filename_lower for keyword in ["grid"]):
             return "grid"
-        elif any(keyword in filename_lower for keyword in ["dot"]):
-            return "dot_grid"
         elif any(keyword in filename_lower for keyword in ["cornell"]):
             return "cornell"
         elif any(keyword in filename_lower for keyword in ["blank"]):

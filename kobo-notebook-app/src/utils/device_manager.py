@@ -104,6 +104,9 @@ class DeviceManager:
             Optional[Dict]: Device information dictionary
         """
         try:
+            if not os.path.exists(device_path):
+                return None
+                
             device_info = {
                 "path": device_path,
                 "model": "Unknown",

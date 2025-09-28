@@ -5,8 +5,18 @@ This module provides template preview capabilities including zoom, pan,
 and real-time preview of template generation.
 """
 
-import tkinter as tk
-from tkinter import ttk, messagebox
+try:
+    import tkinter as tk
+    from tkinter import ttk, messagebox, filedialog
+    TKINTER_AVAILABLE = True
+except ImportError:
+    # Use mock tkinter for testing
+    import sys
+    import os
+    sys.path.insert(0, os.path.join(os.path.dirname(__file__)))
+    from mock_tkinter import *
+    import mock_tkinter as tk
+    TKINTER_AVAILABLE = False
 import os
 import sys
 from pathlib import Path

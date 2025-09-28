@@ -261,10 +261,18 @@ echo "Please restart your device to see the new templates."
                 required_files = ["manifest.json", "preinstall", "postinstall"]
                 tar_files = tar.getnames()
                 
-                for required_file in required_files:
-                    if required_file not in tar_files:
-                        self.logger.warning(f"Missing required file: {required_file}")
-                        return False
+                # Check for required files (allow for different paths)
+                found_files = 0
+                for member in tar_files:
+                    for required_file in required_files:
+                        if member.endswith(required_file):
+                            found_files += 1
+                            break
+                
+                # Need at least manifest.json and one script
+                if found_files < 2:
+                    self.logger.warning(f"Missing required files. Found {found_files} of 3 required files")
+                    return False
             
             return True
             

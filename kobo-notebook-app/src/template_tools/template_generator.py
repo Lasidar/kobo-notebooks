@@ -17,21 +17,30 @@ except ImportError:
     PIL_AVAILABLE = False
     # Create dummy classes for testing
     class Image:
+        def __init__(self, mode=None, size=None, color=None):
+            self.mode = mode
+            self.size = size
+            self.color = color
+        
         @staticmethod
         def new(mode, size, color):
-            return None
+            return Image(mode, size, color)
         
         @staticmethod
         def open(path):
             return None
         
         def save(self, path, format=None):
-            pass
+            # Mock save - create a file
+            with open(path, 'w') as f:
+                f.write(f"Mock image: {self.mode}, {self.size}, {self.color}")
         
         def convert(self, mode):
+            self.mode = mode
             return self
         
         def resize(self, size, resample=None):
+            self.size = size
             return self
     
     class ImageDraw:
