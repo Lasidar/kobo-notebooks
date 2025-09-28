@@ -1,0 +1,74 @@
+{
+  "total_tests": 8,
+  "passed_tests": 4,
+  "failed_tests": 4,
+  "success_rate": 50.0,
+  "test_results": [
+    {
+      "test_name": "Device Detection",
+      "success": false,
+      "message": "No devices detected",
+      "duration": 8.273124694824219e-05,
+      "details": {},
+      "timestamp": "2025-09-28T22:21:24.674101"
+    },
+    {
+      "test_name": "Device Connectivity",
+      "success": false,
+      "message": "No devices available for connectivity test",
+      "duration": 3.528594970703125e-05,
+      "details": {},
+      "timestamp": "2025-09-28T22:21:24.674174"
+    },
+    {
+      "test_name": "Template Generation",
+      "success": true,
+      "message": "Generated 5 templates: Lined, Grid, Dot Grid, Cornell, Blank",
+      "duration": 0.009876489639282227,
+      "details": {},
+      "timestamp": "2025-09-28T22:21:24.684078"
+    },
+    {
+      "test_name": "Template Validation",
+      "success": true,
+      "message": "Validation passed: True",
+      "duration": 5.5789947509765625e-05,
+      "details": {},
+      "timestamp": "2025-09-28T22:21:24.684170"
+    },
+    {
+      "test_name": "Package Creation",
+      "success": true,
+      "message": "Package created and validated: test_package.tgz.tgz",
+      "duration": 0.005529642105102539,
+      "details": {},
+      "timestamp": "2025-09-28T22:21:24.689723"
+    },
+    {
+      "test_name": "Installation Simulation",
+      "success": false,
+      "message": "No devices available for installation test",
+      "duration": 4.649162292480469e-05,
+      "details": {},
+      "timestamp": "2025-09-28T22:21:24.689820"
+    },
+    {
+      "test_name": "Performance Benchmarks",
+      "success": true,
+      "message": "All benchmarks passed: {'template_generation': 0.0001735687255859375, 'package_creation': 0.0072481632232666016, 'package_validation': 0.0035247802734375}",
+      "duration": 0.011481046676635742,
+      "details": {},
+      "timestamp": "2025-09-28T22:21:24.701326"
+    },
+    {
+      "test_name": "Device Health",
+      "success": false,
+      "message": "No devices available for health test",
+      "duration": 4.76837158203125e-05,
+      "details": {},
+      "timestamp": "2025-09-28T22:21:24.701438"
+    }
+  ],
+  "timestamp": "2025-09-28T22:21:24.701468",
+  "device_info": []
+}

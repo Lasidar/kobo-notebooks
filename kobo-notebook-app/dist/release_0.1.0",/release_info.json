@@ -1,0 +1,41 @@
+{
+  "version": "0.1.0\",",
+  "platform": "all",
+  "created": "2025-09-28T22:22:37.161675",
+  "files": [
+    {
+      "name": "kobo-notebook-app-0.1.0\",-source.tar.gz",
+      "type": "source",
+      "path": "/workspace/kobo-notebook-app/dist/release_0.1.0\",/kobo-notebook-app-0.1.0\",-source.tar.gz",
+      "size": 82445,
+      "checksum": "29ed92010162a12a9451ee5915d9be01f76a7b0062ae5be11f7516fbabbae816"
+    },
+    {
+      "name": "kobo-notebook-app-0.1.0\",-windows.zip",
+      "type": "windows",
+      "path": "/workspace/kobo-notebook-app/dist/release_0.1.0\",/kobo-notebook-app-0.1.0\",-windows.zip",
+      "size": 201167,
+      "checksum": "21b82aeda8b14cff53e44b09a18f4da05d352d001141be653a1b425ace85db8d"
+    },
+    {
+      "name": "kobo-notebook-app-0.1.0\",-linux.tar.gz",
+      "type": "linux",
+      "path": "/workspace/kobo-notebook-app/dist/release_0.1.0\",/kobo-notebook-app-0.1.0\",-linux.tar.gz",
+      "size": 170327,
+      "checksum": "eb75a9cbfd40b2d6ff942b6dd9e08accc59f8be2b4f6ea8aa4832e7b9c96ca6f"
+    },
+    {
+      "name": "kobo-notebook-app-0.1.0\",-macos.tar.gz",
+      "type": "macos",
+      "path": "/workspace/kobo-notebook-app/dist/release_0.1.0\",/kobo-notebook-app-0.1.0\",-macos.tar.gz",
+      "size": 170168,
+      "checksum": "f517926e828eee8d257e4cfc2a959fdbfb9289098f9dc3bb827573de9c0c1396"
+    }
+  ],
+  "checksums": {
+    "kobo-notebook-app-0.1.0\",-source.tar.gz": "29ed92010162a12a9451ee5915d9be01f76a7b0062ae5be11f7516fbabbae816",
+    "kobo-notebook-app-0.1.0\",-windows.zip": "21b82aeda8b14cff53e44b09a18f4da05d352d001141be653a1b425ace85db8d",
+    "kobo-notebook-app-0.1.0\",-linux.tar.gz": "eb75a9cbfd40b2d6ff942b6dd9e08accc59f8be2b4f6ea8aa4832e7b9c96ca6f",
+    "kobo-notebook-app-0.1.0\",-macos.tar.gz": "f517926e828eee8d257e4cfc2a959fdbfb9289098f9dc3bb827573de9c0c1396"
+  }
+}
